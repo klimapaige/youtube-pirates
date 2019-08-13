@@ -1,0 +1,12 @@
+{
+  "name": "youtube-pirates-shared",
+  "version": "1.0.0",
+  "description": "This is a simple shared library for a project I was working in while studying. It uses holds all the code for data access from the api we created. ",
+  "main": "index.js",
+  "repository": "",
+  "author": "Andres Carrera, Paige Klima",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/cli": "^7.5.5"
+  }
+}
