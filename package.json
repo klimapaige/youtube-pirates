@@ -1,12 +1,23 @@
 {
   "name": "youtube-pirates-shared",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "This is a simple shared library for a project I was working in while studying. It uses holds all the code for data access from the api we created. ",
-  "main": "index.js",
+  "main": "./out/export.js",
   "repository": "",
   "author": "Andres Carrera, Paige Klima",
   "license": "MIT",
+  "scripts": {
+    "start": "babel src --out-dir out",
+    "prepublish": "npm start"
+  },
   "dependencies": {
-    "@babel/cli": "^7.5.5"
+    "google-auth-library": "^5.2.0",
+    "googleapis": "^42.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-proposal-export-default-from": "^7.5.2",
+    "@babel/preset-env": "^7.5.5"
   }
 }
