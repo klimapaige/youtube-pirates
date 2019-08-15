@@ -1,0 +1,5 @@
+https://www.youtube.com/watch?v={video_id}
+
+#FF0000
+#FFFFFF
+#282828
